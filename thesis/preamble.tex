@@ -1,0 +1,45 @@
+% ---------- Packages ----------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsthm,mathtools,stmaryrd}
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{csquotes}
+\usepackage[backend=biber,style=alphabetic]{biblatex}
+\addbibresource{references.bib}
+\usepackage{hyperref}
+\usepackage[capitalise,noabbrev]{cleveref}
+
+% ---------- Theorem environments ----------
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[chapter]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{proposition}[theorem]{Proposition}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+% proofs: use the standard amsthm `proof` environment
+
+% ---------- Notation (use only these macros!) ----------
+\newcommand{\Ag}{A}                         % set of agents
+\newcommand{\At}{P}                         % set of atoms
+\newcommand{\K}[1]{K_{#1}}                  % knowledge of agent #1
+\newcommand{\ann}[1]{[#1]}                  % announcement [φ]
+\newcommand{\LK}{\mathcal{L}_K(\Ag,\At)}    % epistemic language
+\newcommand{\LKA}{\mathcal{L}_{K[\,]}(\Ag,\At)} % language with announcements
+\newcommand{\Mod}{M}
+\newcommand{\M}{\mathcal{M}}
+\newcommand{\restr}[2]{#1|_{#2}}            % model restriction M|φ
+\newcommand{\sem}[2]{\llbracket #1 \rrbracket_{#2}} % [[φ]]_M
+\newcommand{\sat}{\models}
+\newcommand{\nsat}{\not\models}
+\newcommand{\proves}[1][]{\vdash_{#1}}
+\newcommand{\SFive}{\mathbf{S5}}
+\newcommand{\PA}{\mathbf{PA}}
+\newcommand{\tr}{t}                         % translation
+\newcommand{\cx}{c}                         % complexity measure
+\newcommand{\Sub}{\mathit{Sub}}

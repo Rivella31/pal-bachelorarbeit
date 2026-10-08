@@ -1,5 +1,8 @@
 # Fragen an den Betreuer — Gespräch 08.10.2026
 
+> Status nach dem Gespräch: 1 ✅ (nur PA, PAC als Ausblick), 2 ✅ (S5 wird bewiesen, eigenes Kapitel), 4 ✅ (Englisch).
+> Offen für das nächste Gespräch: 3 (Lean), 5, 6, 7, 8.
+
 ## Stand
 - Gelesen: Kap. 2.1–2.2 (S5: Sprache, Semantik, Axiomatisierung), Kap. 7.1–7.2 (Vollständigkeit S5, kanonisches Modell).
 - Arbeitsorganisation: Git-Repo mit LaTeX-Gerüst, Zeitplan bis Anfang März, Lean-4-Formalisierung als maschinelle Kontrolle (erste Lemmata laufen).

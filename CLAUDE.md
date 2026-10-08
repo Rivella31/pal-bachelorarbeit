@@ -10,14 +10,16 @@ produces a bachelor thesis in theoretical computer science. The thesis is built 
   completeness proof in **Section 7.4** (translation t, complexity measure c, Lemmas 7.22–7.24),
   relying on **Theorem 7.7** (completeness of S5ₙ, canonical model, Section 7.2).
 - The book PDF is NOT in the repo (copyright). Yiğit provides pages when needed.
-- **Language of the thesis:** German for now (LaTeX in `thesis/`) — **open, see `docs/offene-fragen.md` Q5**
-  (English is being asked of the supervisor). Until Q5 is decided, all thesis text is written in German.
-  Never switch the thesis language on your own.
+- **Language of the thesis: English** (decided with the supervisor on 08.10.2026; LaTeX in `thesis/`).
+- **Structure (agreed with the supervisor, 08.10.2026):** 1 Introduction · 2 Preliminaries (languages of S5 and PA,
+  semantics of PA, axiom systems for S5 and PA) · 3 Soundness and completeness for S5 (book 7.2) ·
+  4 Soundness and completeness for PA (book 7.4) · 5 Conclusion. Do not add chapters without the supervisor's agreement
+  (e.g. the Lean formalisation stays outside the main chapters unless agreed — see Q6).
 - **Language of process files** (this file, agents, commands, `docs/`, `wochen/`): **English**.
-  Exception: `wochen/*/fragen-an-betreuer.md` is written in the language used with the supervisor (German unless told otherwise).
+  `wochen/*/fragen-an-betreuer.md` may be English or German, whichever Yiğit uses with the supervisor.
   The `tutor` talks to Yiğit in Turkish.
 - AI use is permitted by the university; agents may draft proofs and text.
-  **All AI use must be declared explicitly** (otherwise it counts as plagiarism) — see Q4 and `thesis/kapitel/anhang-ki.tex`.
+  **All AI use must be declared explicitly** (otherwise it counts as plagiarism) — see Q4 and `thesis/chapters/appendix-ai.tex`.
 
 ## The team (`.claude/agents/`)
 | Agent | Role |
@@ -27,7 +29,7 @@ produces a bachelor thesis in theoretical computer science. The thesis is built 
 | `lean-formalisierer` | Formalises definitions/lemmas in Lean 4 (`lean/`) |
 | `tutor` | Teaches Yiğit socratically and runs the comprehension quiz |
 | `gutachter` | Simulates supervisor/examiner, prepares questions for supervisor meetings and the defence |
-| `literatur` | Finds and **verifies** sources, maintains `thesis/literatur.bib` |
+| `literatur` | Finds and **verifies** sources, maintains `thesis/references.bib` |
 | `redaktion` | Language, notation, LaTeX consistency |
 
 ## Weekly workflow (mandatory)
@@ -43,7 +45,7 @@ produces a bachelor thesis in theoretical computer science. The thesis is built 
 8. **gutachter** writes `wochen/woche-XX/fragen-an-betreuer.md` for the next meeting. → `/woche-abschliessen`
 
 ## Quality rules
-- **No invented citations.** Every entry in `literatur.bib` has a field `note = {verified: ...}`
+- **No invented citations.** Every entry in `references.bib` has a field `note = {verified: ...}`
   or is commented out as `% UNVERIFIED`. Nothing unverified is cited in the text.
 - **A proof is "done"** only if: pruefer has no open errors AND (if planned) Lean is green AND Yiğit has explained it in the quiz.
 - Every place where the book "leaves a proof to the reader" (e.g. Ex. 4.47–4.52, 7.23, 7.25)
@@ -51,9 +53,9 @@ produces a bachelor thesis in theoretical computer science. The thesis is built 
 - Collect oddities in the book in `docs/offene-fragen.md` (e.g. Table 4.1 lacks the rule
   "necessitation of announcement" although the text mentions it).
 - **AI declaration:** keep a running log of what each agent contributed per chapter (in the weekly `zusammenfassung.md`)
-  so that `anhang-ki.tex` can describe AI use concretely per phase, including that agents draft proofs and text
+  so that `appendix-ai.tex` can describe AI use concretely per phase, including that agents draft proofs and text
   and how this was checked (pruefer report, Lean verification, comprehension quiz).
-- Notation follows the book, macros in `thesis/praeambel.tex` — no ad-hoc notation.
+- Notation follows the book, macros in `thesis/preamble.tex` — no ad-hoc notation.
 - Decisions (with date and rationale) in `docs/entscheidungen.md`.
 - Small, descriptive commits; one branch `woche-XX` per week, merged into `main` when the week is closed.
 

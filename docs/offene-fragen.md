@@ -15,8 +15,10 @@ do not list this rule.
 for announcements c([φ]ψ) is meant. Probably a leftover from Section 7.6. For the thesis: justify
 why 4 is the least suitable number (compute, in particular the composition case).
 
-## Q3 — Scope
-Prove S5ₙ completeness (Thm 7.7) or cite it? Scope of the Lean formalisation?
+## Q3 — Scope ✅ answered 08.10.2026
+The agreed structure has its own chapter "Soundness and completeness for S5 (Section 7.2)" → **S5ₙ completeness is proved in the thesis.**
+Scope is PA without common knowledge (7.4); PAC only as outlook in the conclusion.
+Lean scope → see Q6.
 
 ## Q4 — Form of the AI declaration (note of 08.10.2026)
 AI use must be declared explicitly in the thesis, otherwise it counts as plagiarism.
@@ -27,13 +29,15 @@ text revision and figures.
 - Describe this thesis just as concretely per phase, but completely: here agents also draft
   proofs and chapter text. That must be stated, together with the kind of control
   (pruefer report, Lean verification, comprehension quiz).
-- Implementation in `thesis/kapitel/anhang-ki.tex`; placement (appendix or front matter) to be clarified with the supervisor.
+- Implementation in `thesis/chapters/appendix-ai.tex`; placement (appendix or front matter) to be clarified with the supervisor.
 - Input: the AI-use log in each week's `zusammenfassung.md`.
 
-## Q5 — Language of the thesis
-As of 08.10.2026: the repo's process files are switched to English (decided, see
-`docs/entscheidungen.md`). The language of the thesis itself is open: so far German is planned; Yiğit asks
-the supervisor on 08.10.2026 whether English is wanted or permitted (book, literature and Lean code are English).
-- **For the supervisor:** German or English?
-- `autor` and `redaktion` now state the thesis language explicitly (German until Q5 is decided),
-  so the text does not switch language unintentionally. The `tutor` stays in Turkish.
+## Q5 — Language of the thesis ✅ answered 08.10.2026: **English**
+Supervisor decided English. `autor`, `redaktion`, `CLAUDE.md` and the LaTeX preamble have been switched.
+The `tutor` keeps talking to Yiğit in Turkish (technical terms in English).
+
+## Q6 — Role of the Lean formalisation
+The agreed structure (Introduction, Preliminaries, S5, PA, Conclusion) has no Lean chapter.
+- **For the supervisor:** may the Lean formalisation be mentioned (e.g. a remark per verified lemma, or an appendix),
+  or should it stay an internal checking tool only?
+- Until answered: Lean remains an internal check; nothing about it goes into the main chapters.

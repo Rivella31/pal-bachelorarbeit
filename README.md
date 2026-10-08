@@ -18,7 +18,7 @@ Her hafta:
 | `CLAUDE.md` | Koordinatör talimatları, kalite kuralları |
 | `.claude/agents/` | autor, pruefer, lean-formalisierer, tutor, gutachter, literatur, redaktion |
 | `.claude/commands/` | `/neue-woche`, `/quiz`, `/woche-abschliessen`, `/kolloquium` |
-| `thesis/` | LaTeX (Almanca), `praeambel.tex` notasyon makroları |
+| `thesis/` | LaTeX (İngilizce), `preamble.tex` notasyon makroları, `chapters/` |
 | `lean/` | Lean 4 formalizasyonu (`PAL`) |
 | `wochen/` | Haftalık plan, raporlar, quiz protokolleri |
 | `docs/` | Zaman planı, açık sorular, kararlar, anlama takibi |

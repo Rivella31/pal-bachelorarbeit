@@ -1,23 +1,23 @@
-# Schedule (draft, adjusted after supervisor meetings)
+# Schedule (adjusted to the structure agreed on 08.10.2026)
 
-Period: October 2026 – submission approx. early March 2027 (~21 weeks). Buffer included.
+Period: October 2026 – submission approx. early March 2027. Chapters refer to the agreed structure.
 
-| Week | approx. date | Content | Chapter | Lean | Status |
+| Week | approx. date | Understanding (Yiğit) | Writing (thesis) | Lean | Status |
 |---|---|---|---|---|---|
-| 1 | 12.10. | Foundations I: Kripke models, S5ₙ, ⊨ vs ⊢ (Yiğit has already read 2.1–2.2, 7.1–7.2) | 2 | syntax + semantics (scaffold done) | 🟡 |
-| 2 | 19.10. | Foundations II: S5ₙ proof system, derivations, soundness of S5ₙ | 2 | Lemma 7.22 complete | ⚪ |
-| 3 | 26.10. | PAL: syntax, semantics, model restriction, examples (book 4.2–4.4) | 3 | equivalence domain predicate ↔ restriction | ⚪ |
-| 4 | 02.11. | PAL principles, reduction axioms semantically (4.5) | 3 | — | ⚪ |
-| 5 | 09.11. | Axiomatisation PA, Ex. 4.47–4.50 in full | 4 | proof system `Provable` | ⚪ |
-| 6 | 16.11. | Soundness of PA incl. Ex. 4.52; resolve "necessitation of announcement" (Q1) | 4 | soundness | ⚪ |
-| 7–9 | 23.11.–13.12. | Completeness of S5ₙ: Lindenbaum, canonical model, truth lemma (7.2) | 5 | decision: formalise or axiom | ⚪ |
-| 10 | 14.12. | **Milestone:** ch. 2–5 rough draft, interim review with supervisor | — | — | ⚪ |
+| 1 | 12.10. | Completeness in "normal" logic (script Metcalfe 3.2–3.4, 4.1–4.2); read book 4.1–4.5, 4.8.1 | Ch. 2.1 Languages of S5 and PA | syntax + semantics (done) | 🟡 |
+| 2 | 19.10. | 7.2 again, mapped to the script; PA semantics (4.4–4.5) | Ch. 2.2 Semantics of PA | Lemma 7.22 complete | ⚪ |
+| 3 | 26.10. | Axiom systems, derivations, consistency | Ch. 2.3 Axiom systems for S5 and PA (incl. Prop. 4.46, Ex. 4.47–4.50) | domain predicate ↔ restriction | ⚪ |
+| 4–6 | 02.11.–22.11. | Soundness S5; MCS, Lindenbaum, canonical model, truth lemma | Ch. 3 Soundness and completeness for S5 | proof system `Provable` | ⚪ |
+| 7 | 23.11. | Q1 (necessitation of announcement) resolved | Ch. 3 review; Ch. 4.1 Soundness of PA (Ex. 4.52) | soundness | ⚪ |
+| 8–10 | 30.11.–20.12. | Translation t, complexity c, Lemmas 7.22–7.24, Thm 7.26 | Ch. 4.2 Completeness by translation | t, Lemma 7.24 | ⚪ |
+| 10 | 20.12. | **Milestone:** Ch. 2–4 rough draft to supervisor | | | ⚪ |
 | 11 | 21.12. | Buffer / holidays | | | ⚪ |
-| 12–14 | 04.01.–24.01. | Completeness of PA: translation t, c, Lemmas 7.22–7.24, Ex. 7.25, Thm 7.26 | 6 | t, Lemma 7.24, Thm 7.26 | ⚪ |
-| 15–16 | 25.01.–07.02. | Chapter on Lean formalisation; outlook PAC (non-compactness, 7.3/7.5) | 7, 8 | clean-up | ⚪ |
-| 17 | 08.02. | Introduction, conclusion, abstract, AI declaration (Q4) | 1, 8, appendix | — | ⚪ |
-| 18–19 | 15.02.–28.02. | Full revision, gutachter pass, incorporate supervisor feedback | all | — | ⚪ |
-| 20 | 01.03. | **Submission** (confirm date with supervisor) | | | ⚪ |
-| 21+ | | Defence preparation (`/kolloquium`) | | | ⚪ |
+| 12–13 | 04.01.–17.01. | Outlook PAC (7.3, 7.5): why the translation fails | Ch. 4 revision | Thm 7.26 (if Q6 allows) | ⚪ |
+| 14 | 18.01. | | Ch. 1 Introduction, Ch. 5 Conclusion, abstract | | ⚪ |
+| 15 | 25.01. | | AI statement (Q4), bibliography check | clean-up | ⚪ |
+| 16–18 | 01.02.–21.02. | Mock defence rounds (`/kolloquium`) | Full revision, supervisor feedback | | ⚪ |
+| 19 | 22.02. | | Buffer | | ⚪ |
+| 20 | ~01.03. | **Submission** (confirm date with supervisor) | | | ⚪ |
+| 21+ | | Defence preparation | | | ⚪ |
 
 Legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 behind

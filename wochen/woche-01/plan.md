@@ -1,39 +1,39 @@
 # Week 01 — Plan  (12.10. – 18.10.2026)
 
-> Planned from `docs/zeitplan.md` before the supervisor meeting of 08.10.2026.
-> After the meeting: fill `betreuer-notizen.md` and adjust the plan with `/neue-woche 01`.
+> Based on the supervisor meeting of 08.10.2026 (`betreuer-notizen.md`).
 
 ## Goals
-- Foundation for chapter 2: language L_K, Kripke/S5 models, satisfaction relation, validity.
-- Yiğit understands the difference between **⊨ (semantically valid)** and **⊢ (derivable)** — the whole thesis is about this.
-- **Supervisor (08.10.): understand completeness for propositional logic first** — same skeleton as 7.2 without K_a
-  (Hilbert calculus, deduction theorem, MCS, Lindenbaum, truth lemma). Source: last year's course script (Yiğit provides).
-- Then close the gap in 7.2 by comparing it step by step with the propositional proof.
-- Literature base verified.
-- Lean: scaffold (syntax, semantics) builds in CI.
+- **Understand completeness in "normal" logic** (supervisor's advice) using last year's script
+  (Metcalfe, *Logic*, 2026) — same skeleton as book 7.2 without K_a.
+- Read book **4.1–4.5** and **4.8.1** (supervisor's reading assignment).
+- Thesis: start **Ch. 2.1 Languages of S5 and PA** (English).
+- Literature base verified. Lean: CI green.
 
-## Reading for Yiğit — already read: 2.1–2.2, 7.1–7.2 (as of 08.10.)
-- Re-read 7.2 (pp. 178–181) after the tutor session, pen in hand: Lemma 7.4 items 4–5 and the K_a case of Lemma 7.5.
-- Book 4.1–4.2 (pp. 67–72): motivation only, what comes at the end.
+## Reading for Yiğit
+1. Script (≈15 pp.): Ch. 3 intro + 3.2 (pp. 39, 45–46), 3.3 deduction theorem (46–48), 3.4 soundness & consistency (48–49),
+   Ch. 4 intro (53), Lemma 4.1.3–4.1.4 (55–56), Thm 4.1.7 (56–57), Thm 4.2.1 (57–58), Thm 4.2.4–4.2.5 (60–61).
+   Skip: 1.3, 2.4–2.5, quantifier/equality axioms, term-structure details, proof details of 4.2.2, Ch. 5–6.
+2. Book 4.1–4.5 (pp. 67–84) and 4.8.1 (pp. 88–90).
+3. Then 7.2 again (pp. 178–181), mapping each step to the script (see learning map, station P).
 
 ## Tasks
 | Agent | Task | Output |
 |---|---|---|
-| autor | Ch. 2: language L_K (inductive def.), Kripke model, S5 model (equivalence relations), satisfaction, validity, 2–3 examples (two-world model p/¬p) | `kapitel/02-grundlagen.tex` §2.1–2.3 |
-| literatur | Check and enable all `% UNVERIFIED` entries; search for PAL formalisations in proof assistants | `literatur.bib`, `docs/literatur-notizen.md` |
-| pruefer | Check all definitions of ch. 2 for precision and completeness | `pruefbericht.md` |
-| lean-formalisierer | CI green (syntax, semantics, `c_pos`, `c_atomic`); Lemma 7.22.3 (`c_neg`) as first goal | `lean/PAL/*.lean` |
-| tutor | Sessions: (1) propositional completeness from the course script, (2) 7.2 as "propositional proof + K_a case" | — |
-| redaktion | Create glossary (`docs/glossar.md`) | |
-| gutachter | Questions for the first supervisor meeting (see `docs/offene-fragen.md`, Q1–Q5) | `fragen-an-betreuer.md` |
+| autor | Ch. 2.1: L_K(A,P) and L_K[](A,P) as inductive definitions, abbreviations, subformulas, examples | `chapters/2-preliminaries.tex` §2.1 |
+| literatur | Verify all `% UNVERIFIED` entries; add the course script as reference if it should be cited; search PAL formalisations | `references.bib`, `docs/literatur-notizen.md` |
+| pruefer | Check §2.1 definitions | `pruefbericht.md` |
+| lean-formalisierer | CI green; Lemma 7.22.3 (`c_neg`) | `lean/PAL/*.lean` |
+| tutor | (1) Script completeness proof, (2) 7.2 as "script proof + K_a case", (3) questions on 4.1–4.5 | — |
+| redaktion | Glossary `docs/glossar.md` (English terms from the book) | |
+| gutachter | Questions for the next meeting (Q1, Q2, Q4, Q6, page count, deadline) | `fragen-an-betreuer.md` |
 
 ## Comprehension gate
 Yiğit can:
-1. Draw an S5 model with 2–3 worlds for two agents and determine the truth of 3 formulas (e.g. K_a p, ¬K_b p, K_a ¬K_b p) at a world.
-2. Explain in his own words what "sound" (⊢ φ ⇒ ⊨ φ) and "complete" (⊨ φ ⇒ ⊢ φ) mean and why completeness is the hard direction.
-3. Explain why the axioms T, 4, 5 correspond to reflexivity, transitivity, euclideanness (intuition).
-4. Prove completeness of propositional logic on paper (MCS → Lindenbaum → valuation → truth lemma → contraposition).
-5. List exactly what 7.2 adds to the propositional proof (worlds = MCSs, ~_a, Lemma 7.4.4–5, K_a case, canonicity).
+1. Explain sound (⊢ φ ⇒ ⊨ φ) and complete (⊨ φ ⇒ ⊢ φ) and why completeness is the hard direction.
+2. Prove on paper, following the script: Lemma 3.4.3, Lemma 4.1.4(b) (script exercise), maximality in Thm 4.2.1 (script exercise).
+3. Reproduce the chain of the script's completeness proof (p. 53) and map each step to 7.2.
+4. Explain what 7.2 adds: worlds = all MCSs, ~_a, Lemma 7.4.4–5, K_a case (witness world, like existential witnesses), canonicity.
+5. Compute a public announcement on a two-world model and explain one reduction axiom semantically (book 4.4–4.5).
 
 ## Definition of done
 - [ ] pruefbericht: no open ERRORs
