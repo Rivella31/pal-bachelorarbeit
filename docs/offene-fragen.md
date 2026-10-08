@@ -30,10 +30,9 @@ Textüberarbeitung und Abbildungen.
 - Umsetzung in `thesis/kapitel/anhang-ki.tex`; Platzierung (Anhang oder vorne) mit Betreuer klären.
 
 ## Q5 — Sprache der Arbeit
-Yiğit hält Englisch für besser (08.10.2026): Buch, Literatur und Lean-Code sind englisch,
-die Fachterminologie müsste sonst übersetzt werden. Die bisherige Entscheidung „Deutsch“ beruht auf der
-Annahme einer Hochschulvorgabe.
-- **An Betreuer:** Ist eine englische Bachelorarbeit zulässig?
-- Unabhängig davon: Prozessdateien (`CLAUDE.md`, `.claude/agents/`, `.claude/commands/`) auf Englisch umstellen.
-  Dabei in `autor` und `redaktion` die Sprache der Arbeit ausdrücklich festlegen, damit der Text nicht
-  unbeabsichtigt die Sprache wechselt. Der `tutor` bleibt auf Türkisch.
+Stand 08.10.2026: Die Prozessdateien des Repos werden auf Englisch umgestellt (entschieden, siehe
+`docs/entscheidungen.md`). Die Sprache der Arbeit selbst ist offen: Bisher ist Deutsch geplant, Yiğit fragt
+den Betreuer am 08.10.2026, ob Englisch gewünscht oder zulässig ist (Buch, Literatur und Lean-Code sind englisch).
+- **An Betreuer:** Deutsch oder Englisch?
+- Bei der Umstellung in `autor` und `redaktion` die Sprache der Arbeit ausdrücklich festlegen, damit der Text
+  nicht unbeabsichtigt die Sprache wechselt. Der `tutor` bleibt auf Türkisch.
