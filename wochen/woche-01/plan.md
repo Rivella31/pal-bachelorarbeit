@@ -9,7 +9,7 @@
 - Literaturbasis verifiziert.
 - Lean: Gerüst (Syntax, Semantik) baut in CI.
 
-## Lesestoff für Yiğit (≈ 4–5 h)
+## Lesestoff für Yiğit — bereits gelesen: 2.1–2.2, 7.1–7.2 (Stand 08.10.)
 - Buch Kap. 2.1–2.2.2 (S. 11–25): Sprache, Semantik von S5. Beispiele mit Anne/Bill aktiv nachrechnen.
 - Buch Kap. 4.1–4.2 (S. 67–72): nur zur Motivation, was am Ende kommt.
 
