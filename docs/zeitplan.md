@@ -1,23 +1,23 @@
-# Zeitplan (Entwurf, wird nach Betreuergesprächen angepasst)
+# Schedule (draft, adjusted after supervisor meetings)
 
-Zeitraum: Oktober 2026 – Abgabe ca. Anfang März 2027 (~21 Wochen). Puffer eingeplant.
+Period: October 2026 – submission approx. early March 2027 (~21 weeks). Buffer included.
 
-| Woche | ca. Datum | Inhalt | Kapitel | Lean | Status |
+| Week | approx. date | Content | Chapter | Lean | Status |
 |---|---|---|---|---|---|
-| 1 | 12.10. | Grundlagen I: Aussagenlogik-Wiederholung, Kripke-Modelle, S5ₙ, ⊨ vs ⊢ | 2 | Syntax + Semantik (Gerüst steht) | 🟡 |
-| 2 | 19.10. | Grundlagen II: Beweissystem S5ₙ, Ableitungen, Korrektheit S5ₙ | 2 | Lemma 7.22 komplett | ⚪ |
-| 3 | 26.10. | PAL: Syntax, Semantik, Modellrestriktion, Beispiele (Buch 4.2–4.4) | 3 | Äquivalenz Domänenprädikat ↔ Restriktion | ⚪ |
-| 4 | 02.11. | PAL-Prinzipien, Reduktionsaxiome semantisch (4.5) | 3 | — | ⚪ |
-| 5 | 09.11. | Axiomatisierung PA, Ex. 4.47–4.50 vollständig | 4 | Beweissystem `Provable` | ⚪ |
-| 6 | 16.11. | Korrektheit von PA inkl. Ex. 4.52; Frage „necessitation of announcement“ klären | 4 | Soundness | ⚪ |
-| 7–9 | 23.11.–13.12. | Vollständigkeit S5ₙ: Lindenbaum, kanonisches Modell, Wahrheitslemma (7.2) | 5 | Entscheidung: formalisieren oder Axiom | ⚪ |
-| 10 | 14.12. | **Meilenstein:** Kap. 2–5 Rohfassung, Zwischenstand Betreuer | — | — | ⚪ |
-| 11 | 21.12. | Puffer / Feiertage | | | ⚪ |
-| 12–14 | 04.01.–24.01. | Vollständigkeit PA: Übersetzung t, c, Lemma 7.22–7.24, Ex. 7.25, Thm 7.26 | 6 | t, Lemma 7.24, Thm 7.26 | ⚪ |
-| 15–16 | 25.01.–07.02. | Kapitel Lean-Formalisierung; Ausblick PAC (Nicht-Kompaktheit, 7.3/7.5) | 7, 8 | Aufräumen | ⚪ |
-| 17 | 08.02. | Einleitung, Fazit, Abstract | 1, 8 | — | ⚪ |
-| 18–19 | 15.02.–28.02. | Gesamtrevision, Gutachter-Durchlauf, Betreuer-Feedback einarbeiten | alle | — | ⚪ |
-| 20 | 01.03. | **Abgabe** (Datum mit Betreuer bestätigen) | | | ⚪ |
-| 21+ | | Kolloquiumsvorbereitung (`/kolloquium`) | | | ⚪ |
+| 1 | 12.10. | Foundations I: Kripke models, S5ₙ, ⊨ vs ⊢ (Yiğit has already read 2.1–2.2, 7.1–7.2) | 2 | syntax + semantics (scaffold done) | 🟡 |
+| 2 | 19.10. | Foundations II: S5ₙ proof system, derivations, soundness of S5ₙ | 2 | Lemma 7.22 complete | ⚪ |
+| 3 | 26.10. | PAL: syntax, semantics, model restriction, examples (book 4.2–4.4) | 3 | equivalence domain predicate ↔ restriction | ⚪ |
+| 4 | 02.11. | PAL principles, reduction axioms semantically (4.5) | 3 | — | ⚪ |
+| 5 | 09.11. | Axiomatisation PA, Ex. 4.47–4.50 in full | 4 | proof system `Provable` | ⚪ |
+| 6 | 16.11. | Soundness of PA incl. Ex. 4.52; resolve "necessitation of announcement" (Q1) | 4 | soundness | ⚪ |
+| 7–9 | 23.11.–13.12. | Completeness of S5ₙ: Lindenbaum, canonical model, truth lemma (7.2) | 5 | decision: formalise or axiom | ⚪ |
+| 10 | 14.12. | **Milestone:** ch. 2–5 rough draft, interim review with supervisor | — | — | ⚪ |
+| 11 | 21.12. | Buffer / holidays | | | ⚪ |
+| 12–14 | 04.01.–24.01. | Completeness of PA: translation t, c, Lemmas 7.22–7.24, Ex. 7.25, Thm 7.26 | 6 | t, Lemma 7.24, Thm 7.26 | ⚪ |
+| 15–16 | 25.01.–07.02. | Chapter on Lean formalisation; outlook PAC (non-compactness, 7.3/7.5) | 7, 8 | clean-up | ⚪ |
+| 17 | 08.02. | Introduction, conclusion, abstract, AI declaration (Q4) | 1, 8, appendix | — | ⚪ |
+| 18–19 | 15.02.–28.02. | Full revision, gutachter pass, incorporate supervisor feedback | all | — | ⚪ |
+| 20 | 01.03. | **Submission** (confirm date with supervisor) | | | ⚪ |
+| 21+ | | Defence preparation (`/kolloquium`) | | | ⚪ |
 
-Legende: ⚪ offen · 🟡 läuft · 🟢 fertig · 🔴 Verzug
+Legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 behind

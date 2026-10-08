@@ -1,30 +1,31 @@
-# Woche XX — Plan  (TT.MM. – TT.MM.)
+# Week XX — Plan  (DD.MM. – DD.MM.)
 
-## Ziele
+## Goals
 -
 
-## Lesestoff für Yiğit
-- Buch S. …–… (Abschnitt …)
+## Reading for Yiğit
+- Book pp. …–… (Section …)
 
-## Aufgaben
-| Agent | Aufgabe | Ergebnis |
+## Tasks
+| Agent | Task | Output |
 |---|---|---|
 | autor | | |
 | literatur | | |
-| pruefer | alle neuen Beweise | pruefbericht.md |
+| pruefer | all new proofs | pruefbericht.md |
 | lean-formalisierer | | |
 | redaktion | | |
 
-## Verständnis-Tor
-Yiğit erklärt in eigenen Worten:
+## Comprehension gate
+Yiğit explains in his own words:
 -
 
-## Übernommen aus Vorwoche
+## Carried over from previous week
 -
 
-## Definition of Done
-- [ ] Prüfbericht: keine offenen FEHLER
-- [ ] LaTeX kompiliert
-- [ ] Lean: `lake build` grün (falls Ziele)
-- [ ] Quiz bestanden
-- [ ] fragen-an-betreuer.md erstellt
+## Definition of done
+- [ ] pruefbericht: no open ERRORs
+- [ ] LaTeX compiles
+- [ ] Lean: `lake build` green (if goals)
+- [ ] Quiz passed
+- [ ] fragen-an-betreuer.md written
+- [ ] AI-use log in zusammenfassung.md

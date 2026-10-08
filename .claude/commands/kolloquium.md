@@ -1,8 +1,9 @@
 ---
-description: Probe-Kolloquium mit dem Gutachter
-argument-hint: [Thema/Kapitel, optional]
+description: Mock defence (Kolloquium) with the gutachter
+argument-hint: [topic/chapter, optional]
 ---
 
-Agent `gutachter` führt ein Probe-Kolloquium mit Yiğit durch (Thema: $ARGUMENTS, sonst gesamte Arbeit).
-10 Fragen, eine nach der anderen, steigende Schwierigkeit, Bewertung nach jeder Antwort.
-Am Ende: Stärken, Schwächen, 3 Dinge zum Wiederholen → `docs/kolloquium-proben.md` (anhängen).
+Agent `gutachter` runs a mock defence with Yiğit (topic: $ARGUMENTS, otherwise the whole thesis).
+10 questions, one at a time, increasing difficulty, assessment after each answer.
+Ask whether to rehearse in Turkish or in the defence language.
+At the end: strengths, weaknesses, 3 things to review → `docs/kolloquium-proben.md` (append, English).
