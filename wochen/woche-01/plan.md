@@ -6,7 +6,9 @@
 ## Goals
 - Foundation for chapter 2: language L_K, Kripke/S5 models, satisfaction relation, validity.
 - Yiğit understands the difference between **⊨ (semantically valid)** and **⊢ (derivable)** — the whole thesis is about this.
-- Close the gap in 7.2 (canonical model, truth lemma), which Yiğit found hard.
+- **Supervisor (08.10.): understand completeness for propositional logic first** — same skeleton as 7.2 without K_a
+  (Hilbert calculus, deduction theorem, MCS, Lindenbaum, truth lemma). Source: last year's course script (Yiğit provides).
+- Then close the gap in 7.2 by comparing it step by step with the propositional proof.
 - Literature base verified.
 - Lean: scaffold (syntax, semantics) builds in CI.
 
@@ -21,7 +23,7 @@
 | literatur | Check and enable all `% UNVERIFIED` entries; search for PAL formalisations in proof assistants | `literatur.bib`, `docs/literatur-notizen.md` |
 | pruefer | Check all definitions of ch. 2 for precision and completeness | `pruefbericht.md` |
 | lean-formalisierer | CI green (syntax, semantics, `c_pos`, `c_atomic`); Lemma 7.22.3 (`c_neg`) as first goal | `lean/PAL/*.lean` |
-| tutor | Session on 7.2: MCS, Lindenbaum, canonical model, truth lemma (K_a case) | — |
+| tutor | Sessions: (1) propositional completeness from the course script, (2) 7.2 as "propositional proof + K_a case" | — |
 | redaktion | Create glossary (`docs/glossar.md`) | |
 | gutachter | Questions for the first supervisor meeting (see `docs/offene-fragen.md`, Q1–Q5) | `fragen-an-betreuer.md` |
 
@@ -30,7 +32,8 @@ Yiğit can:
 1. Draw an S5 model with 2–3 worlds for two agents and determine the truth of 3 formulas (e.g. K_a p, ¬K_b p, K_a ¬K_b p) at a world.
 2. Explain in his own words what "sound" (⊢ φ ⇒ ⊨ φ) and "complete" (⊨ φ ⇒ ⊢ φ) mean and why completeness is the hard direction.
 3. Explain why the axioms T, 4, 5 correspond to reflexivity, transitivity, euclideanness (intuition).
-4. Sketch the structure of the proof of Thm 7.7: Lindenbaum → canonical model → truth lemma → contraposition.
+4. Prove completeness of propositional logic on paper (MCS → Lindenbaum → valuation → truth lemma → contraposition).
+5. List exactly what 7.2 adds to the propositional proof (worlds = MCSs, ~_a, Lemma 7.4.4–5, K_a case, canonicity).
 
 ## Definition of done
 - [ ] pruefbericht: no open ERRORs
