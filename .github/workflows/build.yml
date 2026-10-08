@@ -1,0 +1,36 @@
+name: build
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  thesis:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: xu-cheng/latex-action@v3
+        with:
+          root_file: main.tex
+          working_directory: thesis
+          latexmk_use_lualatex: false
+      - uses: actions/upload-artifact@v4
+        with:
+          name: arbeit-pdf
+          path: thesis/main.pdf
+
+  lean:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: lean
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install elan
+        run: |
+          curl -sSfL https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh | sh -s -- -y --default-toolchain none
+          echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
+      - name: Build
+        run: lake build
+      - name: Kein sorry
+        run: "! grep -rn --include=*.lean 'sorry' PAL"

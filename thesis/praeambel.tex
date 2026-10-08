@@ -1,0 +1,47 @@
+% ---------- Pakete ----------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsthm,mathtools,stmaryrd}
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{csquotes}
+\usepackage[backend=biber,style=alphabetic]{biblatex}
+\addbibresource{literatur.bib}
+\usepackage{hyperref}
+\usepackage[ngerman,capitalise,noabbrev]{cleveref}
+
+% ---------- Theorem-Umgebungen ----------
+\theoremstyle{plain}
+\newtheorem{satz}{Satz}[chapter]
+\newtheorem{lemma}[satz]{Lemma}
+\newtheorem{korollar}[satz]{Korollar}
+\newtheorem{proposition}[satz]{Proposition}
+\theoremstyle{definition}
+\newtheorem{definition}[satz]{Definition}
+\newtheorem{beispiel}[satz]{Beispiel}
+\theoremstyle{remark}
+\newtheorem{bemerkung}[satz]{Bemerkung}
+\newenvironment{beweis}{\begin{proof}[Beweis]}{\end{proof}}
+\crefname{satz}{Satz}{Sätze}
+\crefname{lemma}{Lemma}{Lemmata}
+
+% ---------- Notation (nur diese Makros verwenden!) ----------
+\newcommand{\Ag}{A}                         % Agentenmenge
+\newcommand{\At}{P}                         % Atome
+\newcommand{\K}[1]{K_{#1}}                  % Wissen von Agent #1
+\newcommand{\ann}[1]{[#1]}                  % Ankündigung [φ]
+\newcommand{\LK}{\mathcal{L}_K(\Ag,\At)}    % epistemische Sprache
+\newcommand{\LKA}{\mathcal{L}_{K[\,]}(\Ag,\At)} % Sprache mit Ankündigungen
+\newcommand{\Mod}{M}
+\newcommand{\M}{\mathcal{M}}
+\newcommand{\restr}[2]{#1|_{#2}}            % Modellrestriktion M|φ
+\newcommand{\sem}[2]{\llbracket #1 \rrbracket_{#2}} % [[φ]]_M
+\newcommand{\sat}{\models}
+\newcommand{\nsat}{\not\models}
+\newcommand{\proves}[1][]{\vdash_{#1}}
+\newcommand{\SFive}{\mathbf{S5}}
+\newcommand{\PA}{\mathbf{PA}}
+\newcommand{\tr}{t}                         % Übersetzung
+\newcommand{\cx}{c}                         % Komplexitätsmass
+\newcommand{\Sub}{\mathit{Sub}}

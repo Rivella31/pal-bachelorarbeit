@@ -1,0 +1,6 @@
+name = "PAL"
+version = "0.1.0"
+defaultTargets = ["PAL"]
+
+[[lean_lib]]
+name = "PAL"
