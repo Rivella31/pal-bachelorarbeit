@@ -17,3 +17,23 @@ warum 4 die kleinste geeignete Zahl ist (rechnen, insb. Fall Komposition).
 
 ## Q3 — Umfang
 S5ₙ-Vollständigkeit (Thm 7.7) selbst beweisen oder zitieren? Umfang der Lean-Formalisierung?
+
+## Q4 — Form der KI-Erklärung (Hinweis vom 08.10.2026)
+Die KI-Nutzung muss in der Arbeit ausdrücklich deklariert werden, sonst gilt sie als Plagiat.
+Vorbild: Cem hat seiner Arbeit eine eigene Seite „Statement on the Use of AI Tools“ vorangestellt.
+Sie nennt die verwendeten Werkzeuge (Claude, Gemini, gelegentlich ChatGPT) und beschreibt je Phase
+konkret, wofür sie eingesetzt wurden: Recherche/Verständnis, Softwareentwicklung (Debugging, Refactoring),
+Textüberarbeitung und Abbildungen.
+- Für diese Arbeit genauso konkret pro Phase beschreiben, aber vollständig: Hier entwerfen Agents auch
+  Beweise und Kapiteltext. Das muss in der Erklärung stehen, zusammen mit der Art der Kontrolle
+  (Prüfbericht des pruefer, Lean-Verifikation, Verständnis-Quiz).
+- Umsetzung in `thesis/kapitel/anhang-ki.tex`; Platzierung (Anhang oder vorne) mit Betreuer klären.
+
+## Q5 — Sprache der Arbeit
+Yiğit hält Englisch für besser (08.10.2026): Buch, Literatur und Lean-Code sind englisch,
+die Fachterminologie müsste sonst übersetzt werden. Die bisherige Entscheidung „Deutsch“ beruht auf der
+Annahme einer Hochschulvorgabe.
+- **An Betreuer:** Ist eine englische Bachelorarbeit zulässig?
+- Unabhängig davon: Prozessdateien (`CLAUDE.md`, `.claude/agents/`, `.claude/commands/`) auf Englisch umstellen.
+  Dabei in `autor` und `redaktion` die Sprache der Arbeit ausdrücklich festlegen, damit der Text nicht
+  unbeabsichtigt die Sprache wechselt. Der `tutor` bleibt auf Türkisch.
