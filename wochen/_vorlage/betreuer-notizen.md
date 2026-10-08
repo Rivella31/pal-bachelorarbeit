@@ -1,13 +1,13 @@
-# Betreuergespräch — TT.MM.JJJJ
+# Supervisor meeting — DD.MM.YYYY
 
-<!-- Stichworte genügen, Türkisch/Deutsch gemischt ist ok -->
+<!-- Bullet points are enough; Turkish/German/English mixed is fine -->
 
-## Was ich gezeigt habe
+## What I presented
 
-## Feedback des Betreuers
+## Supervisor feedback
 
-## Entscheidungen / Vorgaben
+## Decisions / requirements
 
-## Aufgaben bis zum nächsten Mal
+## Tasks until next time
 
-## Nächster Termin
+## Next meeting

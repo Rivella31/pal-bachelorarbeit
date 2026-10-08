@@ -1,8 +1,8 @@
 ---
-description: Verständnis-Tor der aktuellen Woche mit dem Tutor durchführen
+description: Run the current week's comprehension gate with the tutor
 ---
 
-Übergib an den Agenten `tutor` mit dem Auftrag: Verständnis-Tor für die aktuelle Woche
-(neuester Ordner in `wochen/`) gemäss Abschnitt „Verständnis-Tor“ in `plan.md` durchführen,
-interaktiv mit Yiğit, eine Frage nach der anderen, auf Türkisch.
-Protokoll in `quiz.md`, Status in `docs/verstaendnis.md`.
+Hand over to the `tutor` agent with the task: run the comprehension gate for the current week
+(newest folder in `wochen/`) according to the section "Comprehension gate" in `plan.md`,
+interactively with Yiğit, one question at a time, in Turkish.
+Protocol in `quiz.md`, status in `docs/verstaendnis.md` (both in English).

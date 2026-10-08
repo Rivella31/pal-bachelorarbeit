@@ -1,11 +1,12 @@
 ---
-description: Aktuelle Woche prüfen und abschliessen, Fragen fürs Betreuergespräch erzeugen
+description: Check and close the current week, generate questions for the supervisor meeting
 ---
 
-1. Prüfe die Definition of Done in `plan.md` der aktuellen Woche: Prüfbericht ohne offene FEHLER,
-   `lake build` grün (soweit Lean-Ziele), LaTeX kompiliert, Quiz bestanden.
-   Ist etwas nicht erfüllt: sag genau was und brich ab (kein Abschluss).
-2. Agent `gutachter`: `fragen-an-betreuer.md` schreiben, Ampel in `docs/zeitplan.md` setzen.
-3. `zusammenfassung.md` der Woche schreiben (max. 10 Zeilen: erreicht / offen / Entscheidungen).
-4. Commit, Merge `woche-XX` → `main`, Push.
-5. Yiğit die Fragen fürs Betreuergespräch anzeigen.
+1. Check the definition of done in the current week's `plan.md`: pruefbericht without open ERRORs,
+   `lake build` green (where Lean goals exist), LaTeX compiles, quiz passed.
+   If anything is not met: say exactly what and stop (no closing).
+2. Agent `gutachter`: write `fragen-an-betreuer.md`, set the traffic light in `docs/zeitplan.md`.
+3. Write the week's `zusammenfassung.md` (max. 10 lines: achieved / open / decisions)
+   plus an **AI-use log** section: which agent drafted or checked what (input for `anhang-ki.tex`).
+4. Commit, merge `woche-XX` → `main`, push.
+5. Show Yiğit the questions for the supervisor meeting.
