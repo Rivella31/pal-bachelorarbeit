@@ -19,8 +19,13 @@ Continued with short, guided steps — went well.
 | 9 | Run Lindenbaum by hand | Thm 4.2.1 | Lemma 7.3 | ✅ |
 | 10 | Why is the union consistent? | Lemma 3.2.2 | Lemma 7.3 | ❌ first ("derivations are infinite") → ✅ after git-commit analogy; **review: finiteness of derivations** |
 | 11 | Maximality of the union | Thm 4.2.1 (exercise) | Lemma 7.3 | ✅ |
+| 12 | Truth lemma, base case | Thm 4.1.7 | Lemma 7.5 | ✅ linked it himself to V^c in the canonical model |
+| 13 | Truth lemma, ¬ case | Thm 4.1.7 | Lemma 7.5 | ⏸ links 1–2 done with help; stopped — **concept of the induction hypothesis not yet clear** |
+
+Session ended ~19:58 because Yiğit was tired (after ~70 min); good point to stop.
 
 Review items for next session:
+- **Structural induction and the induction hypothesis** (start here, with the ¬¬p example and the recursion analogy), then finish the ¬ case (last link = Lemma 4.1.4(a)) and the ∧ case.
 - Finiteness of derivations and why the Lindenbaum union is consistent — have him explain it once more unaided.
 - Always give line justifications in derivations.
 - Notation: ψ (psi) vs θ (theta).
